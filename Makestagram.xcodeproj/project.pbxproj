@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80E541A1EECA31700FAB262 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E54191EECA31700FAB262 /* PostImageCell.swift */; };
 		B81C60641EEBAF58003FD7EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81C60631EEBAF58003FD7EA /* GoogleService-Info.plist */; };
 		B81C60761EEBB26B003FD7EA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81C60751EEBB26B003FD7EA /* Login.storyboard */; };
 		B81C60781EEBB2CD003FD7EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60771EEBB2CD003FD7EA /* LoginViewController.swift */; };
@@ -24,6 +25,7 @@
 		B81C60921EEC8EC6003FD7EA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60911EEC8EC6003FD7EA /* Post.swift */; };
 		B81C60941EEC91C0003FD7EA /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60931EEC91C0003FD7EA /* UIImage+Size.swift */; };
 		B81C60961EEC92FA003FD7EA /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60951EEC92FA003FD7EA /* StorageReference+Post.swift */; };
+		B81C60991EEC9575003FD7EA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81C60971EEC9575003FD7EA /* Home.storyboard */; };
 		B82470751EEBAB3F00C923F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82470741EEBAB3F00C923F7 /* AppDelegate.swift */; };
 		B824707A1EEBAB3F00C923F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82470781EEBAB3F00C923F7 /* Main.storyboard */; };
 		B824707C1EEBAB3F00C923F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B824707B1EEBAB3F00C923F7 /* Assets.xcassets */; };
@@ -34,6 +36,7 @@
 /* Begin PBXFileReference section */
 		46E3F1F1DA0165BAE6806D53 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		7B8301F769A736B43C42788E /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80E54191EECA31700FAB262 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		B81C60631EEBAF58003FD7EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B81C60751EEBB26B003FD7EA /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B81C60771EEBB2CD003FD7EA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		B81C60911EEC8EC6003FD7EA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B81C60931EEC91C0003FD7EA /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		B81C60951EEC92FA003FD7EA /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		B81C60981EEC9575003FD7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Makestagram/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		B82470711EEBAB3F00C923F7 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82470741EEBAB3F00C923F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B82470791EEBAB3F00C923F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				B82470781EEBAB3F00C923F7 /* Main.storyboard */,
+				B81C60971EEC9575003FD7EA /* Home.storyboard */,
 				B81C60751EEBB26B003FD7EA /* Login.storyboard */,
 				B824707D1EEBAB3F00C923F7 /* LaunchScreen.storyboard */,
 			);
@@ -161,6 +166,7 @@
 		B81C60741EEBB188003FD7EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B80E54191EECA31700FAB262 /* PostImageCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				B824707F1EEBAB3F00C923F7 /* LaunchScreen.storyboard in Resources */,
 				B81C60641EEBAF58003FD7EA /* GoogleService-Info.plist in Resources */,
 				B824707C1EEBAB3F00C923F7 /* Assets.xcassets in Resources */,
+				B81C60991EEC9575003FD7EA /* Home.storyboard in Resources */,
 				B81C60761EEBB26B003FD7EA /* Login.storyboard in Resources */,
 				B824707A1EEBAB3F00C923F7 /* Main.storyboard in Resources */,
 			);
@@ -332,6 +339,7 @@
 				B81C607E1EEBC0EF003FD7EA /* UserService.swift in Sources */,
 				B81C60861EEBCC76003FD7EA /* HomeViewController.swift in Sources */,
 				B81C60921EEC8EC6003FD7EA /* Post.swift in Sources */,
+				B80E541A1EECA31700FAB262 /* PostImageCell.swift in Sources */,
 				B81C60941EEC91C0003FD7EA /* UIImage+Size.swift in Sources */,
 				B81C60821EEBC6FC003FD7EA /* Storyboard+Utility.swift in Sources */,
 				B81C608C1EEC83B9003FD7EA /* MGPhotoHelper.swift in Sources */,
@@ -348,6 +356,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B81C60971EEC9575003FD7EA /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B81C60981EEC9575003FD7EA /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
 		B82470781EEBAB3F00C923F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
