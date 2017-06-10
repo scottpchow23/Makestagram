@@ -17,6 +17,13 @@
 		B81C60821EEBC6FC003FD7EA /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60811EEBC6FC003FD7EA /* Storyboard+Utility.swift */; };
 		B81C60861EEBCC76003FD7EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60851EEBCC76003FD7EA /* HomeViewController.swift */; };
 		B81C60881EEBCC81003FD7EA /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60871EEBCC81003FD7EA /* FindFriendsViewController.swift */; };
+		B81C608A1EEC81C3003FD7EA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60891EEC81C3003FD7EA /* MainTabBarViewController.swift */; };
+		B81C608C1EEC83B9003FD7EA /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C608B1EEC83B9003FD7EA /* MGPhotoHelper.swift */; };
+		B81C608E1EEC8B3E003FD7EA /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C608D1EEC8B3E003FD7EA /* StorageService.swift */; };
+		B81C60901EEC8C76003FD7EA /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C608F1EEC8C76003FD7EA /* PostService.swift */; };
+		B81C60921EEC8EC6003FD7EA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60911EEC8EC6003FD7EA /* Post.swift */; };
+		B81C60941EEC91C0003FD7EA /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60931EEC91C0003FD7EA /* UIImage+Size.swift */; };
+		B81C60961EEC92FA003FD7EA /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60951EEC92FA003FD7EA /* StorageReference+Post.swift */; };
 		B82470751EEBAB3F00C923F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82470741EEBAB3F00C923F7 /* AppDelegate.swift */; };
 		B824707A1EEBAB3F00C923F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82470781EEBAB3F00C923F7 /* Main.storyboard */; };
 		B824707C1EEBAB3F00C923F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B824707B1EEBAB3F00C923F7 /* Assets.xcassets */; };
@@ -37,6 +44,13 @@
 		B81C60811EEBC6FC003FD7EA /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		B81C60851EEBCC76003FD7EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B81C60871EEBCC81003FD7EA /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		B81C60891EEC81C3003FD7EA /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		B81C608B1EEC83B9003FD7EA /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
+		B81C608D1EEC8B3E003FD7EA /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		B81C608F1EEC8C76003FD7EA /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		B81C60911EEC8EC6003FD7EA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B81C60931EEC91C0003FD7EA /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		B81C60951EEC92FA003FD7EA /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		B82470711EEBAB3F00C923F7 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82470741EEBAB3F00C923F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B82470791EEBAB3F00C923F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +96,7 @@
 				B81C607B1EEBBE5E003FD7EA /* CreateUsernameViewController.swift */,
 				B81C60851EEBCC76003FD7EA /* HomeViewController.swift */,
 				B81C60871EEBCC81003FD7EA /* FindFriendsViewController.swift */,
+				B81C60891EEC81C3003FD7EA /* MainTabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -90,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				B81C60811EEBC6FC003FD7EA /* Storyboard+Utility.swift */,
+				B81C60931EEC91C0003FD7EA /* UIImage+Size.swift */,
+				B81C60951EEC92FA003FD7EA /* StorageReference+Post.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -97,6 +114,7 @@
 		B81C606F1EEBB188003FD7EA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B81C608B1EEC83B9003FD7EA /* MGPhotoHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -105,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				B81C60791EEBBB91003FD7EA /* User.swift */,
+				B81C60911EEC8EC6003FD7EA /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -113,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				B81C607D1EEBC0EF003FD7EA /* UserService.swift */,
+				B81C608D1EEC8B3E003FD7EA /* StorageService.swift */,
+				B81C608F1EEC8C76003FD7EA /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -306,12 +327,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B81C607A1EEBBB91003FD7EA /* User.swift in Sources */,
+				B81C608E1EEC8B3E003FD7EA /* StorageService.swift in Sources */,
 				B81C60781EEBB2CD003FD7EA /* LoginViewController.swift in Sources */,
 				B81C607E1EEBC0EF003FD7EA /* UserService.swift in Sources */,
 				B81C60861EEBCC76003FD7EA /* HomeViewController.swift in Sources */,
+				B81C60921EEC8EC6003FD7EA /* Post.swift in Sources */,
+				B81C60941EEC91C0003FD7EA /* UIImage+Size.swift in Sources */,
 				B81C60821EEBC6FC003FD7EA /* Storyboard+Utility.swift in Sources */,
+				B81C608C1EEC83B9003FD7EA /* MGPhotoHelper.swift in Sources */,
+				B81C608A1EEC81C3003FD7EA /* MainTabBarViewController.swift in Sources */,
 				B81C60881EEBCC81003FD7EA /* FindFriendsViewController.swift in Sources */,
+				B81C60961EEC92FA003FD7EA /* StorageReference+Post.swift in Sources */,
 				B81C60801EEBC69F003FD7EA /* Constants.swift in Sources */,
+				B81C60901EEC8C76003FD7EA /* PostService.swift in Sources */,
 				B81C607C1EEBBE5E003FD7EA /* CreateUsernameViewController.swift in Sources */,
 				B82470751EEBAB3F00C923F7 /* AppDelegate.swift in Sources */,
 			);
