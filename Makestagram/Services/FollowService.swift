@@ -21,6 +21,28 @@ struct FollowSerivce {
             if let error = error {
                 assertionFailure(error.localizedDescription)
             }
+            let dispatchGroup = DispatchGroup()
+            dispatchGroup.enter()
+            
+            let followingCountRef = DatabaseReference.toLocation(.showUser(uid: currentUID)).child("following_count")
+            followingCountRef.runTransactionBlock({ (mutableData) -> TransactionResult in
+                let currentCount = mutableData.value as? Int ?? 0
+                mutableData.value = currentCount + 1
+                
+                return TransactionResult.success(withValue: mutableData)
+            })
+            
+            dispatchGroup.enter()
+            
+            let followerCountRef = DatabaseReference.toLocation(.showUser(uid: currentUID)).child("follower_count")
+            followerCountRef.runTransactionBlock({ (mutableData) -> TransactionResult in
+                let currentCount = mutableData.value as? Int ?? 0
+                mutableData.value = currentCount + 1
+                
+                return TransactionResult.success(withValue: mutableData)
+            })
+            
+            dispatchGroup.enter()
             UserService.posts(for: user, completion: { (posts) in
                 let postKeys = posts.flatMap{ $0.key }
                 
@@ -32,9 +54,13 @@ struct FollowSerivce {
                     if let error = error {
                         assertionFailure(error.localizedDescription)
                     }
-                    
+                    dispatchGroup.leave()
                     success(error == nil)
                 })
+            })
+            
+            dispatchGroup.notify(queue: .main, execute: { 
+                success(true)
             })
         }
     }
@@ -48,6 +74,30 @@ struct FollowSerivce {
             if let error = error {
                 assertionFailure(error.localizedDescription)
             }
+            
+            let dispatchGroup = DispatchGroup()
+            dispatchGroup.enter()
+            
+            let followingCountRef = DatabaseReference.toLocation(.showUser(uid: currentUID)).child("following_count")
+            followingCountRef.runTransactionBlock({ (mutableData) -> TransactionResult in
+                let currentCount = mutableData.value as? Int ?? 0
+                mutableData.value = currentCount - 1
+                
+                return TransactionResult.success(withValue: mutableData)
+            })
+            
+            dispatchGroup.enter()
+            
+            let followerCountRef = DatabaseReference.toLocation(.showUser(uid: currentUID)).child("follower_count")
+            followerCountRef.runTransactionBlock({ (mutableData) -> TransactionResult in
+                let currentCount = mutableData.value as? Int ?? 0
+                mutableData.value = currentCount - 1
+                
+                return TransactionResult.success(withValue: mutableData)
+            })
+            
+            dispatchGroup.enter()
+            
             UserService.posts(for: user, completion: { (posts) in
                 let postKeys = posts.flatMap{ $0.key }
                 
@@ -58,9 +108,12 @@ struct FollowSerivce {
                     if let error = error {
                         assertionFailure(error.localizedDescription)
                     }
-                    
+                    dispatchGroup.leave()
                     success(error == nil)
                 })
+            })
+            dispatchGroup.notify(queue: .main, execute: {
+                success(true)
             })
         }
     }

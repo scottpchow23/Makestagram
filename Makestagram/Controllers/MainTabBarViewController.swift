@@ -19,14 +19,7 @@ class MainTabBarViewController: UITabBarController {
         photoHelper.completionHandler = { image in
             PostService.create(for: image)
         }
-        // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
 extension MainTabBarViewController: UITabBarControllerDelegate {

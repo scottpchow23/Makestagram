@@ -10,6 +10,11 @@ target 'Makestagram' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Kingfisher'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FirebaseUI/Facebook'
+  pod 'GoogleSignIn'
+  pod 'FirebaseUI/Google'
   # Pods for Makestagram
 
 end

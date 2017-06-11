@@ -23,7 +23,7 @@ class FindFriendsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        UserService.usersExcludingCurrentUser { [unowned self](users) in
+        UserService.usersExcludingCurrentUser { [unowned self] (users) in
             self.users = users
             
             DispatchQueue.main.async {

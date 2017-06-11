@@ -39,6 +39,22 @@
 		B824707A1EEBAB3F00C923F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82470781EEBAB3F00C923F7 /* Main.storyboard */; };
 		B824707C1EEBAB3F00C923F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B824707B1EEBAB3F00C923F7 /* Assets.xcassets */; };
 		B824707F1EEBAB3F00C923F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B824707D1EEBAB3F00C923F7 /* LaunchScreen.storyboard */; };
+		B859705C1EED18DA006524E5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970521EED18DA006524E5 /* OpenSans-Bold.ttf */; };
+		B859705D1EED18DA006524E5 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970531EED18DA006524E5 /* OpenSans-BoldItalic.ttf */; };
+		B859705E1EED18DA006524E5 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970541EED18DA006524E5 /* OpenSans-ExtraBold.ttf */; };
+		B859705F1EED18DA006524E5 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970551EED18DA006524E5 /* OpenSans-ExtraBoldItalic.ttf */; };
+		B85970601EED18DA006524E5 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970561EED18DA006524E5 /* OpenSans-Italic.ttf */; };
+		B85970611EED18DA006524E5 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970571EED18DA006524E5 /* OpenSans-Light.ttf */; };
+		B85970621EED18DA006524E5 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970581EED18DA006524E5 /* OpenSans-LightItalic.ttf */; };
+		B85970631EED18DA006524E5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85970591EED18DA006524E5 /* OpenSans-Regular.ttf */; };
+		B85970641EED18DA006524E5 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B859705A1EED18DA006524E5 /* OpenSans-Semibold.ttf */; };
+		B85970651EED18DA006524E5 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B859705B1EED18DA006524E5 /* OpenSans-SemiboldItalic.ttf */; };
+		B85970671EED1B1B006524E5 /* UIColor+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85970661EED1B1B006524E5 /* UIColor+Utility.swift */; };
+		B85970691EED1C1E006524E5 /* UIFont+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85970681EED1C1E006524E5 /* UIFont+Utility.swift */; };
+		B859706B1EED2273006524E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859706A1EED2273006524E5 /* ProfileViewController.swift */; };
+		B859706E1EED2302006524E5 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B859706C1EED2302006524E5 /* Profile.storyboard */; };
+		B85970701EED265F006524E5 /* PostThumbImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859706F1EED265F006524E5 /* PostThumbImageCell.swift */; };
+		B85970721EED2A3D006524E5 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85970711EED2A3D006524E5 /* ProfileHeaderView.swift */; };
 		D706FDB120F92CE520DFE0DE /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8301F769A736B43C42788E /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +95,22 @@
 		B824707B1EEBAB3F00C923F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B824707E1EEBAB3F00C923F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B82470801EEBAB3F00C923F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		B85970521EED18DA006524E5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		B85970531EED18DA006524E5 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B85970541EED18DA006524E5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B85970551EED18DA006524E5 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B85970561EED18DA006524E5 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		B85970571EED18DA006524E5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		B85970581EED18DA006524E5 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		B85970591EED18DA006524E5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		B859705A1EED18DA006524E5 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		B859705B1EED18DA006524E5 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		B85970661EED1B1B006524E5 /* UIColor+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utility.swift"; sourceTree = "<group>"; };
+		B85970681EED1C1E006524E5 /* UIFont+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Utility.swift"; sourceTree = "<group>"; };
+		B859706A1EED2273006524E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B859706D1EED2302006524E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Makestagram/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		B859706F1EED265F006524E5 /* PostThumbImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostThumbImageCell.swift; sourceTree = "<group>"; };
+		B85970711EED2A3D006524E5 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		E7E92B0CE085CCFA0BC8B7FF /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +151,7 @@
 				B81C60851EEBCC76003FD7EA /* HomeViewController.swift */,
 				B81C60871EEBCC81003FD7EA /* FindFriendsViewController.swift */,
 				B81C60891EEC81C3003FD7EA /* MainTabBarViewController.swift */,
+				B859706A1EED2273006524E5 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -131,6 +164,8 @@
 				B81C60951EEC92FA003FD7EA /* StorageReference+Post.swift */,
 				B80E54281EECFAAD00FAB262 /* DatabaseReference+Location.swift */,
 				B80E542A1EED034F00FAB262 /* UITableView+Utility.swift */,
+				B85970661EED1B1B006524E5 /* UIColor+Utility.swift */,
+				B85970681EED1C1E006524E5 /* UIFont+Utility.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -169,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				B82470781EEBAB3F00C923F7 /* Main.storyboard */,
+				B859706C1EED2302006524E5 /* Profile.storyboard */,
 				B80E54231EECCC9A00FAB262 /* FindFriends.storyboard */,
 				B81C60971EEC9575003FD7EA /* Home.storyboard */,
 				B81C60751EEBB26B003FD7EA /* Login.storyboard */,
@@ -194,6 +230,8 @@
 				B80E541B1EECA5D600FAB262 /* PostHeaderCell.swift */,
 				B80E541D1EECAA9200FAB262 /* PostActionCell.swift */,
 				B80E54261EECCD2D00FAB262 /* FindFriendsCell.swift */,
+				B859706F1EED265F006524E5 /* PostThumbImageCell.swift */,
+				B85970711EED2A3D006524E5 /* ProfileHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +257,7 @@
 		B82470731EEBAB3F00C923F7 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				B85970511EED18DA006524E5 /* Resources */,
 				B81C606D1EEBB188003FD7EA /* Controllers */,
 				B81C606E1EEBB188003FD7EA /* Extensions */,
 				B81C606F1EEBB188003FD7EA /* Helpers */,
@@ -231,6 +270,23 @@
 				B824707B1EEBAB3F00C923F7 /* Assets.xcassets */,
 			);
 			path = Makestagram;
+			sourceTree = "<group>";
+		};
+		B85970511EED18DA006524E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B85970521EED18DA006524E5 /* OpenSans-Bold.ttf */,
+				B85970531EED18DA006524E5 /* OpenSans-BoldItalic.ttf */,
+				B85970541EED18DA006524E5 /* OpenSans-ExtraBold.ttf */,
+				B85970551EED18DA006524E5 /* OpenSans-ExtraBoldItalic.ttf */,
+				B85970561EED18DA006524E5 /* OpenSans-Italic.ttf */,
+				B85970571EED18DA006524E5 /* OpenSans-Light.ttf */,
+				B85970581EED18DA006524E5 /* OpenSans-LightItalic.ttf */,
+				B85970591EED18DA006524E5 /* OpenSans-Regular.ttf */,
+				B859705A1EED18DA006524E5 /* OpenSans-Semibold.ttf */,
+				B859705B1EED18DA006524E5 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,13 +352,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85970611EED18DA006524E5 /* OpenSans-Light.ttf in Resources */,
 				B824707F1EEBAB3F00C923F7 /* LaunchScreen.storyboard in Resources */,
+				B85970621EED18DA006524E5 /* OpenSans-LightItalic.ttf in Resources */,
 				B81C60641EEBAF58003FD7EA /* GoogleService-Info.plist in Resources */,
+				B85970641EED18DA006524E5 /* OpenSans-Semibold.ttf in Resources */,
+				B85970651EED18DA006524E5 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				B859706E1EED2302006524E5 /* Profile.storyboard in Resources */,
+				B859705C1EED18DA006524E5 /* OpenSans-Bold.ttf in Resources */,
 				B824707C1EEBAB3F00C923F7 /* Assets.xcassets in Resources */,
 				B80E54251EECCC9A00FAB262 /* FindFriends.storyboard in Resources */,
 				B81C60991EEC9575003FD7EA /* Home.storyboard in Resources */,
+				B859705D1EED18DA006524E5 /* OpenSans-BoldItalic.ttf in Resources */,
 				B81C60761EEBB26B003FD7EA /* Login.storyboard in Resources */,
+				B85970631EED18DA006524E5 /* OpenSans-Regular.ttf in Resources */,
 				B824707A1EEBAB3F00C923F7 /* Main.storyboard in Resources */,
+				B85970601EED18DA006524E5 /* OpenSans-Italic.ttf in Resources */,
+				B859705F1EED18DA006524E5 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				B859705E1EED18DA006524E5 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,10 +430,12 @@
 			files = (
 				B80E54221EECC65400FAB262 /* FollowService.swift in Sources */,
 				B81C607A1EEBBB91003FD7EA /* User.swift in Sources */,
+				B85970671EED1B1B006524E5 /* UIColor+Utility.swift in Sources */,
 				B81C608E1EEC8B3E003FD7EA /* StorageService.swift in Sources */,
 				B81C60781EEBB2CD003FD7EA /* LoginViewController.swift in Sources */,
 				B80E542B1EED034F00FAB262 /* UITableView+Utility.swift in Sources */,
 				B81C607E1EEBC0EF003FD7EA /* UserService.swift in Sources */,
+				B85970721EED2A3D006524E5 /* ProfileHeaderView.swift in Sources */,
 				B81C60861EEBCC76003FD7EA /* HomeViewController.swift in Sources */,
 				B80E541E1EECAA9200FAB262 /* PostActionCell.swift in Sources */,
 				B80E54201EECB07A00FAB262 /* LikeService.swift in Sources */,
@@ -374,9 +443,12 @@
 				B80E541A1EECA31700FAB262 /* PostImageCell.swift in Sources */,
 				B80E542D1EED04FC00FAB262 /* MGPaginationHelper.swift in Sources */,
 				B80E54271EECCD2D00FAB262 /* FindFriendsCell.swift in Sources */,
+				B85970701EED265F006524E5 /* PostThumbImageCell.swift in Sources */,
 				B81C60941EEC91C0003FD7EA /* UIImage+Size.swift in Sources */,
+				B85970691EED1C1E006524E5 /* UIFont+Utility.swift in Sources */,
 				B81C60821EEBC6FC003FD7EA /* Storyboard+Utility.swift in Sources */,
 				B81C608C1EEC83B9003FD7EA /* MGPhotoHelper.swift in Sources */,
+				B859706B1EED2273006524E5 /* ProfileViewController.swift in Sources */,
 				B81C608A1EEC81C3003FD7EA /* MainTabBarViewController.swift in Sources */,
 				B81C60881EEBCC81003FD7EA /* FindFriendsViewController.swift in Sources */,
 				B80E54291EECFAAD00FAB262 /* DatabaseReference+Location.swift in Sources */,
@@ -424,6 +496,14 @@
 			);
 			name = LaunchScreen.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		B859706C1EED2302006524E5 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B859706D1EED2302006524E5 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
