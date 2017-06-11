@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B80E541A1EECA31700FAB262 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E54191EECA31700FAB262 /* PostImageCell.swift */; };
+		B80E541C1EECA5D600FAB262 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E541B1EECA5D600FAB262 /* PostHeaderCell.swift */; };
+		B80E541E1EECAA9200FAB262 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E541D1EECAA9200FAB262 /* PostActionCell.swift */; };
+		B80E54201EECB07A00FAB262 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E541F1EECB07A00FAB262 /* LikeService.swift */; };
+		B80E54221EECC65400FAB262 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E54211EECC65400FAB262 /* FollowService.swift */; };
+		B80E54251EECCC9A00FAB262 /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80E54231EECCC9A00FAB262 /* FindFriends.storyboard */; };
+		B80E54271EECCD2D00FAB262 /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E54261EECCD2D00FAB262 /* FindFriendsCell.swift */; };
+		B80E54291EECFAAD00FAB262 /* DatabaseReference+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E54281EECFAAD00FAB262 /* DatabaseReference+Location.swift */; };
+		B80E542B1EED034F00FAB262 /* UITableView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E542A1EED034F00FAB262 /* UITableView+Utility.swift */; };
+		B80E542D1EED04FC00FAB262 /* MGPaginationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E542C1EED04FC00FAB262 /* MGPaginationHelper.swift */; };
 		B81C60641EEBAF58003FD7EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81C60631EEBAF58003FD7EA /* GoogleService-Info.plist */; };
 		B81C60761EEBB26B003FD7EA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81C60751EEBB26B003FD7EA /* Login.storyboard */; };
 		B81C60781EEBB2CD003FD7EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C60771EEBB2CD003FD7EA /* LoginViewController.swift */; };
@@ -37,6 +46,15 @@
 		46E3F1F1DA0165BAE6806D53 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		7B8301F769A736B43C42788E /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80E54191EECA31700FAB262 /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		B80E541B1EECA5D600FAB262 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		B80E541D1EECAA9200FAB262 /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
+		B80E541F1EECB07A00FAB262 /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
+		B80E54211EECC65400FAB262 /* FollowService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
+		B80E54241EECCC9A00FAB262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Makestagram/Base.lproj/FindFriends.storyboard; sourceTree = SOURCE_ROOT; };
+		B80E54261EECCD2D00FAB262 /* FindFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
+		B80E54281EECFAAD00FAB262 /* DatabaseReference+Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseReference+Location.swift"; sourceTree = "<group>"; };
+		B80E542A1EED034F00FAB262 /* UITableView+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Utility.swift"; sourceTree = "<group>"; };
+		B80E542C1EED04FC00FAB262 /* MGPaginationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPaginationHelper.swift; sourceTree = "<group>"; };
 		B81C60631EEBAF58003FD7EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B81C60751EEBB26B003FD7EA /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B81C60771EEBB2CD003FD7EA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +129,8 @@
 				B81C60811EEBC6FC003FD7EA /* Storyboard+Utility.swift */,
 				B81C60931EEC91C0003FD7EA /* UIImage+Size.swift */,
 				B81C60951EEC92FA003FD7EA /* StorageReference+Post.swift */,
+				B80E54281EECFAAD00FAB262 /* DatabaseReference+Location.swift */,
+				B80E542A1EED034F00FAB262 /* UITableView+Utility.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -119,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				B81C608B1EEC83B9003FD7EA /* MGPhotoHelper.swift */,
+				B80E542C1EED04FC00FAB262 /* MGPaginationHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -138,6 +159,8 @@
 				B81C607D1EEBC0EF003FD7EA /* UserService.swift */,
 				B81C608D1EEC8B3E003FD7EA /* StorageService.swift */,
 				B81C608F1EEC8C76003FD7EA /* PostService.swift */,
+				B80E541F1EECB07A00FAB262 /* LikeService.swift */,
+				B80E54211EECC65400FAB262 /* FollowService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -146,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				B82470781EEBAB3F00C923F7 /* Main.storyboard */,
+				B80E54231EECCC9A00FAB262 /* FindFriends.storyboard */,
 				B81C60971EEC9575003FD7EA /* Home.storyboard */,
 				B81C60751EEBB26B003FD7EA /* Login.storyboard */,
 				B824707D1EEBAB3F00C923F7 /* LaunchScreen.storyboard */,
@@ -167,6 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				B80E54191EECA31700FAB262 /* PostImageCell.swift */,
+				B80E541B1EECA5D600FAB262 /* PostHeaderCell.swift */,
+				B80E541D1EECAA9200FAB262 /* PostActionCell.swift */,
+				B80E54261EECCD2D00FAB262 /* FindFriendsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -272,6 +299,7 @@
 				B824707F1EEBAB3F00C923F7 /* LaunchScreen.storyboard in Resources */,
 				B81C60641EEBAF58003FD7EA /* GoogleService-Info.plist in Resources */,
 				B824707C1EEBAB3F00C923F7 /* Assets.xcassets in Resources */,
+				B80E54251EECCC9A00FAB262 /* FindFriends.storyboard in Resources */,
 				B81C60991EEC9575003FD7EA /* Home.storyboard in Resources */,
 				B81C60761EEBB26B003FD7EA /* Login.storyboard in Resources */,
 				B824707A1EEBAB3F00C923F7 /* Main.storyboard in Resources */,
@@ -333,22 +361,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80E54221EECC65400FAB262 /* FollowService.swift in Sources */,
 				B81C607A1EEBBB91003FD7EA /* User.swift in Sources */,
 				B81C608E1EEC8B3E003FD7EA /* StorageService.swift in Sources */,
 				B81C60781EEBB2CD003FD7EA /* LoginViewController.swift in Sources */,
+				B80E542B1EED034F00FAB262 /* UITableView+Utility.swift in Sources */,
 				B81C607E1EEBC0EF003FD7EA /* UserService.swift in Sources */,
 				B81C60861EEBCC76003FD7EA /* HomeViewController.swift in Sources */,
+				B80E541E1EECAA9200FAB262 /* PostActionCell.swift in Sources */,
+				B80E54201EECB07A00FAB262 /* LikeService.swift in Sources */,
 				B81C60921EEC8EC6003FD7EA /* Post.swift in Sources */,
 				B80E541A1EECA31700FAB262 /* PostImageCell.swift in Sources */,
+				B80E542D1EED04FC00FAB262 /* MGPaginationHelper.swift in Sources */,
+				B80E54271EECCD2D00FAB262 /* FindFriendsCell.swift in Sources */,
 				B81C60941EEC91C0003FD7EA /* UIImage+Size.swift in Sources */,
 				B81C60821EEBC6FC003FD7EA /* Storyboard+Utility.swift in Sources */,
 				B81C608C1EEC83B9003FD7EA /* MGPhotoHelper.swift in Sources */,
 				B81C608A1EEC81C3003FD7EA /* MainTabBarViewController.swift in Sources */,
 				B81C60881EEBCC81003FD7EA /* FindFriendsViewController.swift in Sources */,
+				B80E54291EECFAAD00FAB262 /* DatabaseReference+Location.swift in Sources */,
 				B81C60961EEC92FA003FD7EA /* StorageReference+Post.swift in Sources */,
 				B81C60801EEBC69F003FD7EA /* Constants.swift in Sources */,
 				B81C60901EEC8C76003FD7EA /* PostService.swift in Sources */,
 				B81C607C1EEBBE5E003FD7EA /* CreateUsernameViewController.swift in Sources */,
+				B80E541C1EECA5D600FAB262 /* PostHeaderCell.swift in Sources */,
 				B82470751EEBAB3F00C923F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +392,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B80E54231EECCC9A00FAB262 /* FindFriends.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80E54241EECCC9A00FAB262 /* Base */,
+			);
+			name = FindFriends.storyboard;
+			sourceTree = "<group>";
+		};
 		B81C60971EEC9575003FD7EA /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
