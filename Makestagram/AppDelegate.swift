@@ -9,7 +9,6 @@
 import UIKit
 import Firebase
 import FirebaseAuthUI
-
 import FBSDKCoreKit
 
 @UIApplicationMain

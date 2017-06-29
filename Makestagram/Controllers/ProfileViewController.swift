@@ -26,7 +26,7 @@ class ProfileViewController: UIViewController {
         user = user ?? User.current
         navigationItem.title = user.username
         
-        profileHandle = UserService.observeProfile(for: user, completion: { [unowned self](ref, user, posts) in
+        profileHandle = UserService.observeProfile(for: user, completion: { [unowned self] (ref, user, posts) in
             self.profileRef = ref
             self.user = user
             self.posts = posts

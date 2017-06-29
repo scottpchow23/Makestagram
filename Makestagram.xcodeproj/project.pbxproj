@@ -197,7 +197,8 @@
 				B80E541F1EECB07A00FAB262 /* LikeService.swift */,
 				B80E54211EECC65400FAB262 /* FollowService.swift */,
 			);
-			path = Services;
+			name = Services;
+			path = Makestagram/Services;
 			sourceTree = "<group>";
 		};
 		B81C60721EEBB188003FD7EA /* Storyboards */ = {
@@ -239,6 +240,7 @@
 		B82470681EEBAB3F00C923F7 = {
 			isa = PBXGroup;
 			children = (
+				B81C60711EEBB188003FD7EA /* Services */,
 				B82470731EEBAB3F00C923F7 /* Makestagram */,
 				B82470721EEBAB3F00C923F7 /* Products */,
 				A69F8DE0AB61FD8A1D602DD6 /* Pods */,
@@ -262,7 +264,6 @@
 				B81C606E1EEBB188003FD7EA /* Extensions */,
 				B81C606F1EEBB188003FD7EA /* Helpers */,
 				B81C60701EEBB188003FD7EA /* Models */,
-				B81C60711EEBB188003FD7EA /* Services */,
 				B81C60721EEBB188003FD7EA /* Storyboards */,
 				B81C60731EEBB188003FD7EA /* Supporting */,
 				B81C60741EEBB188003FD7EA /* Views */,
